@@ -18,6 +18,16 @@ body{
 ::-webkit-scrollbar {
     display: none;
   }
+  .quote-author {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    padding: 10px;
+    color: #16faf385;
+    font-size: 24px;
+    text-align: right;
+  }
 .quote-card-main {
     display: block;
     margin-bottom: 10px;
@@ -32,6 +42,7 @@ body{
     height: 250px;
     font-size: 40px;
     animation: scroll 35s linear infinite;
+    position: relative;
   }
   
   .quote-card-main:before {
@@ -79,7 +90,7 @@ body{
   
   .trunctate {
     overflow:auto;
-    color: rgb(20, 163, 140);
+    color: #16faf385;
     text-align: center;
     font-family: 'Segoe Script Regular';
     font-weight: 900;
