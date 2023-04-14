@@ -1,0 +1,123 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .wrapper a {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    flex-basis: 50%;
+  }
+  
+  .wrapper a:nth-child(odd) {
+    align-self: flex-end;
+  }
+  
+  .wrapper__container {
+    display: flex;
+    position: relative;
+    width: 200%;
+    animation: marquee 5s linear infinite;
+  }
+  
+  .wrapper__container a {
+    flex: 0 0 auto;
+    width: 50%;
+    height: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 40px;
+    line-height: 1.5;
+    overflow: hidden;
+  }
+  
+  .wrapper__container a::after {
+    content: attr(href);
+    display: none;
+  }
+  
+  .wrapper__container a:hover::after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 18px;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .svelte-izfvso {
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .svelte-izfvso:hover {
+    transition: background-color 0.3s ease;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .wrapper__container a:nth-child(1),
+  .wrapper__container a:nth-child(2) {
+    animation-delay: 0s;
+  }
+  
+  .wrapper__container a:nth-child(3),
+  .wrapper__container a:nth-child(4) {
+    animation-delay: 10s;
+  }
+  
+  .wrapper__container a:nth-child(5),
+  .wrapper__container a:nth-child(6) {
+    animation-delay: 20s;
+  }
+  
+  .wrapper__container a:nth-child(7),
+  .wrapper__container a:nth-child(8) {
+    animation-delay: 30s;
+  }
+  
+  .wrapper__container a:nth-child(9),
+  .wrapper__container a:nth-child(10) {
+    animation-delay: 40s;
+  }
+  
+  .wrapper__container a:nth-child(11),
+  .wrapper__container a:nth-child(12) {
+    animation-delay: 50s;
+  }
+  
+  .wrapper__container a:nth-child(13),
+  .wrapper__container a:nth-child(14) {
+    animation-delay: 60s;
+  }
+  
+  .wrapper__container a:nth-child(15),
+  .wrapper__container a:nth-child(16) {
+    animation-delay: 70s;
+  }
+  

@@ -1,0 +1,89 @@
+h1 {
+    display: block;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: left;
+    justify-content: left;
+  }
+  h3{
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 300;
+  }
+  .form-elem {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+  }
+  
+  .contentx {
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+    border: 0px solid #ccc;
+    overflow-x: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  
+  .flexer {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+    padding-bottom: 30px;
+    overflow-x: scroll; /* apply overflow-x property to the flex container */
+  }
+  .flexer a{
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .category {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    text-align: center;
+    color: white;
+    min-width: 250px;
+  }
+  
+  .category:first-child {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .category:last-child {
+    margin-right: 0;
+  }
+
+  .quotis {
+    background-color: rgba(0,0,0,1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+  }
+  
+  .quotis a {
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  .quotis blockquote {
+    margin: 0;
+  }
+  
+  .quotis p {
+    margin-top: 10px;
+    padding: 50px;
+    font-family:'Segoe UI';
+    align-items: left;
+    display: flex;
+  }
+  
+  

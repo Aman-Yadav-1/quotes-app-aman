@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+/* Mobile and Tablet Styles */
+@media only screen and (max-width: 768px) {
+  .border {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .fade-in-text {
+    font-size: 30px;
+    padding: 40px;
+  }
+
+  .fade-in-container {
+    margin-top: 70px; /* Add margin-top to push the container down */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 769px) {
+  .border {
+    width: 1100px;
+    height: 600px;
+    padding: 70px;
+  }
+
+  h1 {
+    font-size: 30px;
+    justify-content: center;
+  }
+
+  .fade-in-text {
+    font-size: 40px;
+    padding: 60px;
+  }
+}
+
+.fade-in-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  /* height: 100vh; */
+}
+
+.border {
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.5);
+  border: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.fade-in-text {
+  opacity: 0;
+  color: white;
+  font-family: 'Segoe Script Regular';
+  font-size: 25px;
+  animation: fade-in 2s ease-out forwards;
+  position: relative;
+  display: inline-block;
+}
+
+.fade-in-text::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #00f;
+  overflow: hidden;
+  width: 0;
+  animation: reveal 2s forwards;
+}
+
+.fade-in-text.loaded::after {
+  content: "";
+}
+
+.fade-in-text.loaded {
+  opacity: 1;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes reveal {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
