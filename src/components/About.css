@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
 @font-face {
     font-family: 'Segoe Script Regular';
     font-style: normal;
     font-weight: normal;
     src: local('Segoe Script Regular'), url('../font/Segoe\ Script.woff') format('woff');
-    }
+}
+
 /* Mobile and Tablet Styles */
 @media only screen and (max-width: 768px) {
   .border {
@@ -52,12 +54,16 @@
   justify-content: center;
   align-items: center;
   padding: 50px;
-  /* height: 100vh; */
+}
+
+.para {
+  color: white;
+  font-size: 30px;
 }
 
 .border {
   border-radius: 10px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid black;
 }
 
@@ -93,6 +99,20 @@ h1 {
 
 .fade-in-text.loaded {
   opacity: 1;
+}
+
+.blink {
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 @keyframes fade-in {

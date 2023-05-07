@@ -70,3 +70,11 @@ createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
 );
 
+function App() {
+  return (
+    <div className="App">
+      <Post />
+    </div>
+  );
+}
+export default App;

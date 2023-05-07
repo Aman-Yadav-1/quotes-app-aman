@@ -1,0 +1,105 @@
+{
+    "authors": [
+      {
+        "name": "Oscar Wilde",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Oscar_Wilde_3g07095u-adjust.jpg/330px-Oscar_Wilde_3g07095u-adjust.jpg",
+        "description": "Oscar Wilde was an Irish playwright, novelist, essayist, and poet. He is known for his clever wit, his plays, and his imprisonment for homosexuality.",
+        "quotes": [
+          "Be yourself; everyone else is already taken.",
+          "To live is the rarest thing in the world. Most people exist, that is all.",
+          "I can resist anything except temptation."
+        ]
+      },
+      {
+        "name": "Maya Angelou",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Maya_Angelou%2C_Oprah_Winfrey.jpg/330px-Maya_Angelou%2C_Oprah_Winfrey.jpg",
+        "description": "Maya Angelou was an American poet, memoirist, and civil rights activist. She is known for her autobiographical works and her contributions to the African-American literary tradition.",
+        "quotes": [
+          "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+          "If you don't like something, change it. If you can't change it, change your attitude.",
+          "Success is liking yourself, liking what you do, and liking how you do it."
+        ]
+      },
+      {
+        "name": "Albert Einstein",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/330px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
+        "description": "Albert Einstein was a German-born theoretical physicist who developed the theory of relativity. He is widely regarded as one of the most influential scientists of the 20th century.",
+        "quotes": [
+          "Imagination is more important than knowledge.",
+          "The true sign of intelligence is not knowledge but imagination.",
+          "I have no special talent. I am only passionately curious."
+        ]
+      },
+      {
+        "name": "Virginia Woolf",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Virginia_Woolf_by_George_Charles_Beresford.jpg/330px-Virginia_Woolf_by_George_Charles_Beresford.jpg",
+        "description": "Virginia Woolf was an English writer and one of the foremost modernists of the 20th century. She is known for her innovative literary style and her contributions to feminist and LGBT literature.",
+        "quotes": [
+          "One cannot think well, love well, sleep well, if one has not dined well.",
+          "Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind.",
+          "I am rooted, but I flow."
+        ]
+    },
+    {
+        "name": "Charles Dickens",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dickens_Gurney_head.jpg/330px-Dickens_Gurney_head.jpg",
+        "description": "Charles Dickens was an English writer and social critic. He is regarded as one of the greatest novelists of the Victorian era, and his works have been widely adapted for stage and screen.",
+        "quotes": [
+            "It was the best of times, it was the worst of times.",
+            "There are dark shadows on the earth, but its lights are stronger in the contrast.",
+            "No one is useless in this world who lightens the burdens of another."
+        ]
+    },
+    {
+        "name": "William Shakespeare",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/330px-Shakespeare.jpg",
+        "description": "William Shakespeare was an English playwright, poet, and actor. He is widely regarded as the greatest writer in the English language and one of the greatest playwrights in history.",
+        "quotes": [
+            "To be, or not to be, that is the question.",
+            "All the world's a stage, and all the men and women merely players.",
+            "The course of true love never did run smooth."
+        ]
+    },
+    {
+        "name": "Miyamoto Musashi",
+        "photo": "https://w0.peakpx.com/wallpaper/863/398/HD-wallpaper-grateful-miyamoto-musashi-slam-dunk-takehiko-inoue-vagabond.jpg",
+        "description": "Miyamoto Musashi was a Japanese swordsman, philosopher, and writer. He is widely considered one of the greatest swordsmen in Japanese history and his book, The Book of Five Rings, is still studied today.",
+        "quotes": [
+            "Do not think dishonestly. The way is in training.",
+            "You should not have any special fondness for a particular weapon, or anything else, for that matter.",
+            "The ultimate aim of martial arts is not having to use them."
+        ]
+    },
+    {
+        "name": "Mae West",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mae_West_in_Everybody%27s_Woman_%281934%29_trailer.jpg/330px-Mae_West_in_Everybody%27s_Woman_%281934%29_trailer.jpg",
+        "description": "Mae West was an American actress, playwright, and sex symbol. She was known for her bold and risqué persona, as well as her contributions to feminist and LGBT rights.",
+        "quotes": [
+            "You only live once, but if you do it right, once is enough.",
+            "I never loved anybody who treated me well.",
+            "When I'm good, I'm very good. But when I'm bad I'm better."
+        ]
+    },
+    {
+        "name": "Andre Gide",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Andr%C3%A9_Gide_ca._1895.jpg/330px-Andr%C3%A9_Gide_ca._1895.jpg",
+        "description": "Andre Gide was a French author and winner of the Nobel Prize in Literature in 1947. He was known for his explorations of morality, sexuality, and social issues.",
+        "quotes": [
+            "It is only in adventure that some people succeed in knowing themselves - in finding themselves.",
+            "The most important things to say are those which often I did not think necessary for me to say—because they were too obvious.",
+            "One does not discover new lands without consenting to lose sight of the shore for a very long time."
+        ]
+    },
+    {
+        "name": "Marcus Aurelius",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Emperor_Marcus_Aurelius_Louvre_Ma2361.jpg/330px-Emperor_Marcus_Aurelius_Louvre_Ma2361.jpg",
+        "description": "Marcus Aurelius was a Roman emperor from 161 to 180 AD, known for his Stoic philosophy and his Meditations, a collection of personal reflections. He is considered one of the most important Stoic philosophers.",
+        "quotes": [
+        "The happiness of your life depends upon the quality of your thoughts.",
+        "Very little is needed to make a happy life; it is all within yourself, in your way of thinking.",
+        "The impediment to action advances action. What stands in the way becomes the way."
+        ]
+    }
+]
+}
+  

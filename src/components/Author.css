@@ -1,15 +1,68 @@
 .box-new {
-  width: 1000px;
-  height: 600px;
+  width: 1200px;
+  height: 700px;
   background-color: rgba(0,0,0,0.5);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-55%, 10%);
+  top: 20%;
+  left: 55%;
+  transform: translate(-55%, 15%);
+}
+
+.author-list {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding: 10px 0;
+}
+
+.author-list-item {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: 1px solid #16faf385;
+}
+
+.author-list-item:hover {
+  color: #16faf385;
+}
+
+.author__quotes {
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: scroll;
+  list-style: none;
+}
+
+.author__quotes li {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #16faf385;
+}
+
+.author__quotes li::before {
+  content: "“";
+  color: #007bff;
+  font-size: 2rem;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.author__quotes li::after {
+  content: "”";
+  color: #007bff;
+  font-size: 2rem;
+  margin-left: 5px;
+  vertical-align: middle;
 }
 
 .author {
@@ -24,12 +77,16 @@
 .author__name {
   font-size: 36px;
   margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .author__description {
   font-size: 24px;
   line-height: 1.5;
   max-width: 500px;
+  color: #16faf385;
 }
 
 .image {
@@ -37,6 +94,7 @@
   height: 100%;
   background-image: url('../images/image1.jpg');
   background-size: cover;
+  
   background-position: center;
 }
 

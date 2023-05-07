@@ -1,90 +1,94 @@
 @font-face {
-    font-family: 'Segoe Script Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Segoe Script Regular'), url('../font/Segoe\ Script.woff') format('woff');
-    }
-body{
-    background-image: url('../images/image1.jpg');
-    backdrop-filter: blur(5px);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
+  font-family: 'Segoe Script Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe Script Regular'), url('../font/Segoe\ Script.woff') format('woff');
 }
+
+body{
+  background-image: url('../images/image1.jpg');
+  backdrop-filter: blur(5px);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
 .container-items{
   padding-left: 115px;
 }
+
 ::-webkit-scrollbar {
-    display: none;
-  }
-.quote-card-main {
-    display: block;
-    margin-bottom: 10px;
-    background-color: rgba(0,0,0,0.3);
-    border-radius: 10px;
-    border: 3px solid teal;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    overflow: hidden;
-    justify-content: auto;
-    position: relative;
-    width: 90%;
-    height: 250px;
-    font-size: 40px;
-    animation: scroll 35s linear infinite;
-  }
-  
-  .quote-card-main:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    /* background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); */
-  }
-  
-  .quote-card-main:hover:before {
-    animation: marquee 10s linear infinite;
-  }
-  
-  @keyframes scroll {
-    0% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: translateY(calc(-100% * 19)); /* Change the number to match the number of quote boxes */
-    }
+  display: none;
 }
-  
-  /* @keyframes marquee {
-    from {
-      transform: translateY(0);
-    }
-    to {
-      transform: translateY(-100%);
-    }
-  } */
-  
-  .quote-card-main a {
-    display: block;
-    width: 100%;
-    text-decoration: none;
+
+.quote-card-main {
+  display: block;
+  margin-bottom: 10px;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 10px;
+  border: 3px solid teal;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  justify-content: auto;
+  position: relative;
+  width: 90%;
+  height: 250px;
+  font-size: 40px;
+  animation: scroll 15s linear infinite;
+}
+
+.quote-card-main:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  /* background-image: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); */
+}
+
+.quote-card-main:hover:before {
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
   }
-  
-  .notfull {
-    padding: 0px;
+  100% {
+    transform: translateY(calc(-100% * 8)); /* Change the number to match the number of quote boxes */
   }
-  
-  .trunctate {
-    overflow:auto;
-    color: rgb(20, 163, 140);
-    text-align: center;
-    font-family: 'Segoe Script Regular';
-    font-weight: 900;
+}
+
+/* @keyframes marquee {
+  from {
+    transform: translateY(0);
   }
-  
-  blockquote p {
-    margin: 0;
+  to {
+    transform: translateY(-100%);
   }
+} */
+
+.quote-card-main a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.notfull {
+  padding: 0px;
+}
+
+.trunctate {
+  overflow:auto;
+  color: rgb(20, 163, 140);
+  text-align: center;
+  font-family: 'Segoe Script Regular';
+  font-weight: 900;
+}
+
+blockquote p {
+  margin: 0;
+}

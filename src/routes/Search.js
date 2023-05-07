@@ -56,7 +56,7 @@ class SearchQuotes extends Component {
       <a style={{ textDecoration: 'none', width: '100%' }} href='#'>
         <blockquote className="nf">
           <p className="quotis trunctate" style={{ marginTop: 10, padding: 50 }}>
-          Don’t be the one point of failure!
+          Show no love, love will get you killed!
           </p>
         </blockquote>
       </a>
@@ -65,7 +65,7 @@ class SearchQuotes extends Component {
       <a style={{ textDecoration: 'none', width: '100%' }}href='#'>
         <blockquote className="nf">
           <p className="quotis trunctate" style={{ marginTop: 10, padding: 50 }}>
-          You want points for cleaning up a mess that you created?
+          There is no who it's okay to hurt
           </p>
         </blockquote>
       </a>
@@ -83,7 +83,7 @@ class SearchQuotes extends Component {
       <a style={{ textDecoration: 'none', width: '100%' }}href='#'>
         <blockquote className="nf">
           <p className="quotis trunctate" style={{ marginTop: 10, padding: 50 }}>
-          He that loves my flesh and blood is my friend.
+            I want to be guts
           </p>
         </blockquote>
       </a>
@@ -92,7 +92,7 @@ class SearchQuotes extends Component {
       <a style={{ textDecoration: 'none', width: '100%' }}href='#'>
         <blockquote className="nf">
           <p className="quotis trunctate" style={{ marginTop: 10, padding: 50 }}>
-          Not everyone that smiles at you wishes you well!
+            If you meet your god, tell him to leave me alone!
           </p>
         </blockquote>
       </a>
@@ -110,7 +110,7 @@ class SearchQuotes extends Component {
       <a style={{ textDecoration: 'none', width: '100%' }}href='#'>
         <blockquote className="nf">
           <p className="quotis trunctate" style={{ marginTop: 10, padding: 50 }}>
-          Winning means nothing if no-one actually loses
+           Success tastes better when no one believed in you.
           </p>
         </blockquote>
       </a>
@@ -119,7 +119,7 @@ class SearchQuotes extends Component {
       <a style={{ textDecoration: 'none', width: '100%' }}href='#'>
         <blockquote className="nf">
           <p className="quotis trunctate" style={{ marginTop: 10, padding: 50 }}>
-          No one wants to be on the losing side!
+          I won't lose, no matter what!
           </p>
         </blockquote>
       </a>

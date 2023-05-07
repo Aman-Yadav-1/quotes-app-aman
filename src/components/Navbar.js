@@ -17,7 +17,7 @@ function Navbar(){
         <nav className='navbar'>
             <div className='navbar-container container'>
                 <Link to="/" className='navbar-logo'>
-                    Hitsville Epigraph Quotes
+                    Quoticly
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     {click ? <FaTimes/>: <FaBars/>}
@@ -30,7 +30,7 @@ function Navbar(){
                     </li>
                     <li className='nav-item'>
                         <NavLink to="/about" className={({isActive}) => "nav-links" + (isActive ? " acivated" : "")} onClick={closeMobileMenu}>
-                            About Heq
+                            About Quoticly
                         </NavLink>
                     </li>
                     <li className='nav-item'>
